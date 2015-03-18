@@ -1,0 +1,13 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+
+target 'FamilyToDo' do
+
+pod 'Firebase'
+
+end
+
+target 'FamilyToDoTests' do
+
+end
+
