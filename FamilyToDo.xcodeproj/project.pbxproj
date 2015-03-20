@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10D88E371ABB36EF0085BB89 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D88E2D1ABB34880085BB89 /* Duration.swift */; };
+		10D88E381ABB36EF0085BB89 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D88E2E1ABB34880085BB89 /* Extensions.swift */; };
+		10D88E391ABB36EF0085BB89 /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D88E2F1ABB34880085BB89 /* Moment.swift */; };
+		10D88E3A1ABB36EF0085BB89 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D88E301ABB34880085BB89 /* Operators.swift */; };
+		10D88E3B1ABB36EF0085BB89 /* TimeUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D88E311ABB34880085BB89 /* TimeUnit.swift */; };
 		2DAD5B961A8A36B600448AE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD5B951A8A36B600448AE4 /* AppDelegate.swift */; };
-		2DAD5B981A8A36B600448AE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD5B971A8A36B600448AE4 /* ViewController.swift */; };
 		2DAD5B9B1A8A36B600448AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DAD5B991A8A36B600448AE4 /* Main.storyboard */; };
 		2DAD5B9D1A8A36B600448AE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DAD5B9C1A8A36B600448AE4 /* Images.xcassets */; };
 		2DAD5BA01A8A36B600448AE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DAD5B9E1A8A36B600448AE4 /* LaunchScreen.xib */; };
@@ -38,10 +42,14 @@
 
 /* Begin PBXFileReference section */
 		0A6B3EC16820A0E91DEBBC0E /* Pods-FamilyToDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FamilyToDo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FamilyToDo/Pods-FamilyToDo.release.xcconfig"; sourceTree = "<group>"; };
+		10D88E2D1ABB34880085BB89 /* Duration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
+		10D88E2E1ABB34880085BB89 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		10D88E2F1ABB34880085BB89 /* Moment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
+		10D88E301ABB34880085BB89 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		10D88E311ABB34880085BB89 /* TimeUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeUnit.swift; sourceTree = "<group>"; };
 		2DAD5B901A8A36B600448AE4 /* FamilyToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FamilyToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DAD5B941A8A36B600448AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DAD5B951A8A36B600448AE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DAD5B971A8A36B600448AE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DAD5B9A1A8A36B600448AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DAD5B9C1A8A36B600448AE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2DAD5B9F1A8A36B600448AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -88,6 +96,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10D88E2C1ABB346C0085BB89 /* SwiftMoment */ = {
+			isa = PBXGroup;
+			children = (
+				10D88E2D1ABB34880085BB89 /* Duration.swift */,
+				10D88E2E1ABB34880085BB89 /* Extensions.swift */,
+				10D88E2F1ABB34880085BB89 /* Moment.swift */,
+				10D88E301ABB34880085BB89 /* Operators.swift */,
+				10D88E311ABB34880085BB89 /* TimeUnit.swift */,
+			);
+			name = SwiftMoment;
+			sourceTree = "<group>";
+		};
 		253F8E5243404290A114AB6B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,7 +150,6 @@
 			children = (
 				2DAD5BBD1A8A372A00448AE4 /* Frameworks */,
 				2DAD5B951A8A36B600448AE4 /* AppDelegate.swift */,
-				2DAD5B971A8A36B600448AE4 /* ViewController.swift */,
 				2DAD5BB51A8A371800448AE4 /* HomeViewController.swift */,
 				2DAD5BB61A8A371800448AE4 /* NewToDoViewController.swift */,
 				2DAD5BB71A8A371800448AE4 /* ToDoCell.swift */,
@@ -172,6 +191,7 @@
 		2DAD5BBD1A8A372A00448AE4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				10D88E2C1ABB346C0085BB89 /* SwiftMoment */,
 				2DAD5BC81A8A377100448AE4 /* CFNetwork.framework */,
 				2DAD5BC61A8A376A00448AE4 /* SystemConfiguration.framework */,
 				2DAD5BC41A8A376200448AE4 /* Security.framework */,
@@ -317,12 +337,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DAD5B981A8A36B600448AE4 /* ViewController.swift in Sources */,
+				10D88E3A1ABB36EF0085BB89 /* Operators.swift in Sources */,
 				2DAD5BBA1A8A371800448AE4 /* NewToDoViewController.swift in Sources */,
 				2DAD5B961A8A36B600448AE4 /* AppDelegate.swift in Sources */,
+				10D88E381ABB36EF0085BB89 /* Extensions.swift in Sources */,
 				2DAD5BBC1A8A371800448AE4 /* ToDo.swift in Sources */,
+				10D88E371ABB36EF0085BB89 /* Duration.swift in Sources */,
 				2DAD5BB91A8A371800448AE4 /* HomeViewController.swift in Sources */,
 				2DAD5BBB1A8A371800448AE4 /* ToDoCell.swift in Sources */,
+				10D88E3B1ABB36EF0085BB89 /* TimeUnit.swift in Sources */,
+				10D88E391ABB36EF0085BB89 /* Moment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -434,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -493,6 +517,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = FamilyToDoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FamilyToDo.app/FamilyToDo";
@@ -508,6 +533,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = FamilyToDoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FamilyToDo.app/FamilyToDo";
